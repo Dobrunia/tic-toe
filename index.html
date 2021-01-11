@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div id="start" class="start">
+		<?xml-stylesheet type="text/css" href="style.css"?><svg version="1.1" viewBox="0 0 100 100" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path id="play" class="f" d="M31.356,25.677l38.625,22.3c1.557,0.899,1.557,3.147,0,4.046l-38.625,22.3c-1.557,0.899-3.504-0.225-3.504-2.023V27.7   C27.852,25.902,29.798,24.778,31.356,25.677z"/></svg>
+	</div>
+	<div id="score" class="score disp">
+		<div class="team"><img src="./0.svg" alt=""></div>
+		<input id="score-team" class="res" type="text" readonly>
+		<div class="team"><img src="./x.svg" alt=""></div>
+	</div>
+	<input id="restart" class="restart disp" type="button" name="" value="restart game">
+	<div id="board" class="board disp">
+	</div>
+	<script src="./figure.js" defer></script>
+	<script src="./board.js" defer></script>
+	<script src="./script.js" defer></script>
+</body>
+</html>
